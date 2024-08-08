@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+#task-form {
+    margin-bottom: 20px;
+}
+
+#task-input {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.task {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.task:last-child {
+    border-bottom: none;
+}
+.task .edit {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .task-text {
+    flex-grow: 1;
+    text-align: left;
+    padding-right: 10px;
+}
+  .task .delete {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+.completed {
+    text-decoration: line-through;
+    color: #000000;
+    
+}
+
+input[type="checkbox"] {
+    accent-color: #000000; 
+    margin-right: 10px; 
+  }
+  
+ 
+  
+/* Hover  */
+  .task .edit:hover,
+  .task .delete:hover,
+  .button:hover {
+    background-color: rgb(67, 66, 66); 
+  }
